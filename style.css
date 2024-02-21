@@ -1,0 +1,60 @@
+body {
+    
+    background: linear-gradient(-45deg, #ee7752, #f1e8c0, #e0ce9c, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  font-family: 'poppins';
+  
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 50px;
+    padding-bottom: 10%;
+    
+}
+
+#h1 {
+    color: rgb(255, 255, 255);
+    
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    padding-top: 5%;
+}
+
+.tex {
+    font-size: 130%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 500;
+}
+
+#img {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box; /* Adiciona esta linha */
+}
+
+#amg{
+    padding-left: 10%;
+}
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
